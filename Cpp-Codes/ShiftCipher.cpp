@@ -53,7 +53,7 @@ string decrypt(string c_text, int key){
 }
 
 int main(){
-    string p_text = "Taskeen Raza";
+    string p_text = "TR";
     int key = 3;
 
     string cipher_text = encrypt(p_text, key);
